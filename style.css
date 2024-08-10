@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg2{
+    background-color:#160606;
+    background-size: cover;
+    height: 100vh;
+    
+
+
+
+}
+.bg1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+   
+
+}
+@media screen and (max-width: 600px) {
+    .bg2 {
+        background-color:#160606;
+        background-size: cover;
+        height: 100vh;
+        
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .bg1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .bg-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+
+.btn1{
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: red;
+    box-shadow: #160606;
+    margin-left: 40px;
+
+}
+.list{
+    list-style-type: none;
+}
+.img4{
+    height: 50px;
+    width: 50px;
+    margin:5px ;
+}
+
+.arrow{
+    color: red;
+    height: 30px;
+}
+.head{
+    color:#ffffff;
+    height: 15px;
+    width: 15px;
+    text-shadow: #ffffff;
+    font-family: Roboto;
+    text-align: start;
+    padding-right: 280px;
+    padding-top: 150px;
+}
+.btn{
+    background-color: red;
+    border: 0px;
+    color: #ffffff;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: #ffffff;
+}
+.img{
+    height: 350px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+}
+
+.clor{
+    color: red;
+}
+
+ .p1{
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 20px;
+ }
+.bg-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    font-weight: bold;
+    color:black;
+    
+    
+}
+.un{
+    margin-top: 150px;
+}
